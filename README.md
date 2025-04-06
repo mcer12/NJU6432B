@@ -1,10 +1,9 @@
 
 # NJU6432B Library
 
-This is an Arduino library for controlling the NJU6432B, an LCD driver. The library provides functions to manage the display buffer, send data, and control individual segments of the display.
+This is an Arduino library for controlling the NJU6432B LCD driver, see manufacturer [datasheet](https://docs.rs-online.com/3725/0900766b8002ada1.pdf) for details and pinout. The library provides functions to manage the display buffer, send data, and control individual segments of the display.
 
-## Basics
-
+![alt text](https://raw.githubusercontent.com/mcer12/NJU6432B/refs/heads/main/images/showcase.webp)
 
 ## Installation
 
