@@ -42,5 +42,3 @@ Clears the display buffer and resets the flag bits.
 
 #### `void fill()`
 Fills the display buffer with `1`s and resets the flag bits.
-
-You can save this content as `README.md` in the root of your repository. Let me know if you'd like to add or modify anything!
