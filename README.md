@@ -29,16 +29,16 @@ Initializes the NJU6432B driver and allocates the display buffer.
 Returns a pointer to the display buffer.
 
 #### `void setSegment(uint8_t segment, uint8_t state)`
-Sets the state of a specific segment in the LED matrix.
+Sets the state of a specific segment.
 
 - `segment`: The segment index (0–111).
 - `state`: The state of the segment (`1` for on, `0` for off).
 
 #### `void update()`
-Sends the current display buffer to the NJU6432B.
+Sends the buffer to NJU6432B.
 
 #### `void clear()`
-Clears the display buffer and resets the flag bits.
+Clears all segments.
 
 #### `void fill()`
-Fills the display buffer with `1`s and resets the flag bits.
+Enables all segments.
